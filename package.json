@@ -1,7 +1,7 @@
 {
-  "name": "PROJECT_NAME",
+  "name": "require-module",
   "version": "0.0.1",
-  "description": "PROJECT DESCRIPTION.",
+  "description": "Search and require a module that won't be webpack'ed.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
@@ -18,17 +18,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daidodo/PROJECT_URL.git"
+    "url": "git+https://github.com/daidodo/require-module.git"
   },
   "keywords": [
-    "PROJECT KEYWORD"
+    "require module",
+    "require",
+    "module",
+    "webpack"
   ],
   "author": "Zhao DAI <daidodo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daidodo/prereq/issues"
+    "url": "https://github.com/daidodo/require-module/issues"
   },
-  "homepage": "https://github.com/daidodo/prereq#readme",
+  "homepage": "https://github.com/daidodo/require-module#readme",
   "jest": {
     "preset": "ts-jest"
   },
@@ -87,8 +90,8 @@
     "@typescript-eslint/parser": "^5.18.0",
     "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^26.1.3",
-    "eslint-plugin-tsdoc": "^0.2.14",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-tsdoc": "^0.2.15",
     "jest": "^27.5.1",
     "prettier": "^2.6.2",
     "ts-jest": "^27.1.4",
