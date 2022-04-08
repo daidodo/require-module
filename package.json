@@ -1,5 +1,5 @@
 {
-  "name": "require-module",
+  "name": "@dozerg/require-module",
   "version": "0.0.1",
   "description": "Search and require a module that won't be webpack'ed.",
   "main": "dist/index.js",
