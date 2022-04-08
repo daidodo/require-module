@@ -17,14 +17,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Add `--log, -l` option to CLI.
-
--->
-
-## [0.0.1] - 2022-02-25
-
-### Added
-
 -
 
 ### Changed
@@ -34,3 +26,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 -
+
+-->
+
+## [0.0.1] - 2022-04-08
+
+### Added
+
+- Add `requireModule`.
