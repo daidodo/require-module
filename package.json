@@ -1,6 +1,6 @@
 {
   "name": "@dozerg/require-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Search and require a module that won't be webpack'ed.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
     "clean": "rm -rf dist",
     "cleanall": "rm -rf dist node_modules *.tgz docs",
     "docs": "rm -rf docs && typedoc",
-    "prepublishOnly": "npm run clean && npm i && tsc && jest src/ && eslint src/"
+    "prepublishOnly": "npm run clean && npm i && tsc && eslint src/ && jest src/"
   },
   "repository": {
     "type": "git",

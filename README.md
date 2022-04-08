@@ -9,7 +9,7 @@ Search and require a module that won't be webpack'ed.
 # Usage
 
 ```sh
-npm i require-module
+npm i @dozerg/require-module
 ```
 
 # APIs
